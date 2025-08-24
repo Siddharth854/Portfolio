@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Siddharth Joshi" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Siddharth Joshi</h1>
+
+          <p class="title">Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:Siddharth854@gmail.com" class="contact-link">Siddharth854@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 8058152657" class="contact-link">+91 8058152657</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-06-09">June 09, 2001</time>
+			  <p class="contact-title">24 years Old</p>
+            </div>                
+                                  
+          </li>                   
+                                  
+          <li class="contact-item">
+                                  
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>                
+                                  
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+                                  
+              <address>Bhilwara, Rajasthan, India</address>
+            </div>                
+                                  
+          </li>                   
+                                  
+        </ul>                     
+                                  
+        <div class="separator"></div>
+                                  
+        <ul class="social-list">  
+                                  
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>                  
+          </li>                   
+                                  
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>                  
+          </li>                   
+                                  
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>                  
+          </li>                   
+                                  
+        </ul>                     
+                                  
+      </div>                      
+                                  
+    </aside>                      
+                         
+    <!--                          
+      - #main-content             
+    -->                           
+                                  
+    <div class="main-content">    
+                                  
+      <!--                        
+        - #NAVBAR                 
+      -->                         
+                                  
+      <nav class="navbar">        
+                                  
+        <ul class="navbar-list">  
+                                  
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>                   
+                                  
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>                   
+                                  
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>                   
+                                  
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>                   
+                                  
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>                   
+                                  
+        </ul>                                                       
+      </nav>                      
+ 
+ <!--                        
+        - #ABOUT                  
+      -->                         
+                                  
+      <article class="about  active" data-page="about">
+                                  
+        <header>                  
+          <h2 class="h2 article-title">About me</h2>
+        </header>                 
+                                  
+        <section class="about-text">
+          <p>                     
+            I'm Creative Software Engineer and Educator from Bhilwara, Rajasthan, working in Software development and print media.
+            I enjoy               
+            turning complex problems into simple, beautiful and intuitive designs.
+          </p>                    
+                                  
+          <p>                     
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I           
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your           
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>                    
+        </section>                
+                                  
+        <!--                      
+          - service               
+        -->                       
+                                  
+        <section class="service"> 
+                                  
+          <h3 class="h3 service-title">What i'm doing</h3>
+                                  
+          <ul class="service-list">
+                                  
+            <li class="service-item">
+                                  
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>              
+                                  
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+                                  
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>              
+              </div>              
+                                  
+            </li>                 
+                                  
+            <li class="service-item">
+                                  
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>              
+                                  
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software development</h4>
+                                  
+                <p class="service-item-text">
+                  High-quality development of Softwares at the professional level.
+                </p>              
+              </div>              
+                                  
+            </li>                 
+                                  
+            <li class="service-item">
+                                  
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>              
+                                  
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+                                  
+                <p class="service-item-text">
+                  Professional development of applications for Android.
+                </p>              
+              </div>              
+                                  
+            </li>                 
+                                  
+            <li class="service-item">
+                                  
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>              
+                                  
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Debating</h4>
+                                  
+                <p class="service-item-text">
+                  I won awards at national level in Debating.
+                </p>              
+              </div>              
+                                  
+            </li>                 
+                                  
+          </ul>                   
+                                  
+        </section>                
+                                  
+                                  
+            </li>                 
+                                  
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                                  
+                <figure class="testimonials-avatar-box">
+<img src="./assets/images/my-avatar.png" 
+     alt="my-avatar"              
+     width="80"                   
+     height="80"                  
+     style="border-radius: 50%;"  
+     data-testimonials-avatar></figure>
+                                  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>What fascinates me about technology</h4>
+                                  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>             
+                    What fascinates me about technology is how it keeps pushing the limits of what’s possible. A few things stand out:
+                                  
+Problem-Solving Power – Technology takes the most complex challenges (like healthcare, space, education) and creates innovative solutions.
+                                  
+Connectivity – It brings people from all over the world closer, making collaboration and communication seamless.
+Constant Evolution – Tech never stands still; every day there’s something new to learn, explore, and build.
+                                  
+Creativity Meets Logic – It’s not just about coding or machines; it’s about imagination turning into reality.
+                                  
+Impact on Daily Life – From AI to smartphones, it transforms how we live, learn, and work.
+                                  
+✨ It’s basically a blend of curiosity + creativity + endless possibilities.
+                  </p>            
+                </div>            
+                                  
+              </div>              
+            </li>                 
+                                  
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                                  
+                <figure class="testimonials-avatar-box">
+<img src="./assets/images/my-avatar.png" 
+     alt="my-avatar"              
+     width="80"                   
+     height="80"                  
+     style="border-radius: 50%;"  
+     data-testimonials-avatar></figure>               
+                                  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>How i use AI to Enhance my performance</h4>
+                                  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>             
+				  Problem-Solving at Scale – AI can analyze massive amounts of data, recognize patterns, and solve problems in seconds that would take humans years.
+                                  
+Everyday Impact – From recommendation systems on Netflix to voice assistants, AI is quietly shaping daily life.
+                                  
+Creativity & Innovation – It’s not just logic; AI is helping in art, music, design, and even scientific discovery.
+                                  
+Opportunities vs. Risks – While AI brings efficiency and progress, it also raises questions about ethics, jobs, and bias that we must handle responsibly.
+                                  
+The Future – What excites me is not just what AI can do now, but how it will collaborate with humans in the future—like a partner that amplifies our abilities.
+                                  
+                  </p>            
+                </div>            
+                                  
+              </div>              
+            </li>                 
+                                  
+          </ul>                   
+                                  
+        </section>                
+                                  
+                                  
+        <!--                      
+          - testimonials modal    
+        -->                       
+                                  
+        <div class="modal-container" data-modal-container>
+                                  
+          <div class="overlay" data-overlay></div>
+                                  
+          <section class="testimonials-modal">
+                                  
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>             
+                                  
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>           
+                                  
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>                
+                                  
+            <div class="modal-content">
+                                  
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                                  
+              <time datetime="2021-06-14">14 June, 2021</time>
+                                  
+              <div data-modal-text>
+                <p>               
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>              
+              </div>              
+                                  
+            </div>                
+                                  
+          </section>              
+                                  
+        </div>                    
+                                  
+                                  
+        <!--                      
+          - clients               
+        -->                       
+                                  
+        <section class="clients"> 
+                                  
+          <h3 class="h3 clients-title">Hobbies</h3>
+                                  
+          <ul class="clients-list has-scrollbar">
+                                  
+            <li class="clients-item">
+              <a href="#">        
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>                
+            </li>                 
+                                  
+            <li class="clients-item">
+              <a href="#">        
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>                
+            </li>                 
+                                  
+            <li class="clients-item">
+              <a href="#">        
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>                
+            </li>                 
+                                  
+          </ul>                   
+                                  
+        </section>                
+                                  
+      </article>                  
+                                  
+                                  
+                                  
+                                  
+                                  
+      <!--                        
+        - #RESUME                 
+      -->                         
+                                  
+      <article class="resume" data-page="resume">
+                                  
+        <header>                  
+          <h2 class="h2 article-title">Resume</h2>
+        </header>                 
+                                  
+        <section class="timeline">
+                                  
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>                
+                                  
+            <h3 class="h3">Education</h3>
+          </div>                  
+                                  
+          <ol class="timeline-list">
+                                  
+            <li class="timeline-item">
+                                  
+              <h4 class="h4 timeline-item-title">Manipal University Jaipur</h4>
+                                  
+              <span>2025 — 2027</span>
+                                  
+              <p class="timeline-text">
+               I attended the Master of Computer Applications (M.C.A) program at Manipal University, Jaipur, a two-year, four-semester postgraduate degree designed to provide advanced knowledge in the field of computer science and applications. The program offered in-depth learning of software development, programming languages, database management, operating systems, networking, cloud computing, and emerging technologies like AI and data science. It emphasized both theoretical understanding and practical implementation through projects, internships, and industry-driven assignments. Along with technical expertise, the course also focused on problem-solving, analytical thinking, and teamwork, preparing graduates for careers in IT, software development, research, and higher studies.
+              </p>                
+                                  
+            </li>                 
+                                  
+            <li class="timeline-item">
+                                  
+              <h4 class="h4 timeline-item-title">Poornima University Jaipur</h4>
+                                  
+              <p class="timeline-text">
+               Completed a Bachelor of Computer Applications (BCA) at Poornima University, Jaipur.
+                                  
+Gained strong foundations in programming, database management, networking, and software development.
+                                  
+Learned practical skills through projects, coding assignments, and industry-oriented training.
+                                  
+Exposure to emerging technologies such as cloud computing, web development, and data analytics.
+                                  
+Built problem-solving, teamwork, and communication skills to prepare for IT and software careers.  
+              </p>                
+                                  
+            </li>                 
+                                  
+            <li class="timeline-item">
+                                  
+              <h4 class="h4 timeline-item-title">Zinc Vidyalaya</h4>
+                                  
+              <span>2006 — 2018/span>
+                                  
+              <p class="timeline-text">
+                Completed schooling from Zinc Vidyalaya between 2011 and 2018.
+                                  
+Studied core subjects with focus on Mathematics, Science, and Computer Studies.
+                                  
+Actively participated in extracurricular activities, cultural programs, and school events.
+                                  
+Developed strong discipline, teamwork, and leadership qualities.
+                                  
+Built a solid academic foundation that prepared me for higher education.  
+              </p>                
+                                  
+            </li>                 
+                                  
+          </ol>                   
+                                  
+        </section>                
+                                  
+        <section class="timeline">
+                                  
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>                
+                                  
+            <h3 class="h3">Experience</h3>
+          </div>                  
+                                  
+          <ol class="timeline-list">
+                                  
+            <li class="timeline-item">
+                                  
+              <h4 class="h4 timeline-item-title">Fresher</h4>
+                                  
+              <span>2025</span>   
+                                  
+              <p class="timeline-text">
+                                Attending College as MCA Student
+              </p>                
+            </li>                 
+                                  
+        </section>                
+                                  
+        <section class="skill">   
+                                  
+          <h3 class="h3 skills-title">My skills</h3>
+                                  
+          <ul class="skills-list content-card">
+                                  
+            <li class="skills-item">
+                                  
+              <div class="title-wrapper">
+                <h5 class="h5">Web development</h5>
+                <data value="80">100%</data>
+              </div>              
+                                  
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>              
+                                  
+            </li>                 
+                                  
+            <li class="skills-item">
+                                  
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>              
+                                  
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>              
+                                  
+            </li>                 
+                                  
+            <li class="skills-item">
+                                  
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="90">90%</data>
+              </div>              
+                                  
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>              
+                                  
+            </li>                 
+                                  
+            <li class="skills-item">
+                                  
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="50">100%</data>
+              </div>              
+                                  
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>              
+                                  
+            </li>                 
+			<li class="skills-item">
+                                  
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="50">100%</data>
+              </div>              
+                                  
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>              
+                                  
+            </li>                 
+<li class="skills-item">          
+                                  
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="50">100%</data>
+              </div>              
+                                  
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>              
+                                  
+            </li>                 
+			<li class="skills-item">
+                                  
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structure</h5>
+                <data value="50">50%</data>
+              </div>              
+                                  
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>              
+                                  
+            </li>                 
+          </ul>                   
+                                  
+        </section>                
+                                  
+      </article>                  
+                                  
+                                  
+                                  
+                                  
+      <!--                        
+        - #PORTFOLIO              
+      -->                         
+                                  
+      <article class="portfolio" data-page="portfolio">
+                                  
+        <header>                  
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>                 
+                                  
+        <section class="projects">
+                                  
+          <ul class="filter-list">
+                                  
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>                 
+                                  
+                                  
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>                 
+                                  
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>                 
+                                  
+          </ul>                   
+                                  
+          <div class="filter-select-box">
+                                  
+            <button class="filter-select" data-select>
+                                  
+              <div class="select-value" data-selecct-value>Select category</div>
+                                  
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>              
+                                  
+            </button>             
+                                  
+            <ul class="select-list">
+                                  
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>               
+                                  
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>               
+                                  
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>               
+                                  
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>               
+                                  
+            </ul>                 
+                                  
+          </div>                  
+                                  
+          <ul class="project-list">
+                                  
+          <li class="project-item full-width active" data-filter-item data-category="web development">
+  <a href="https://siddharth-chat-app.onrender.com/login" target="_blank">
+                                  
+    <figure class="project-img">  
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>                      
+      <img src="./assets/images/1.png" alt="finance" loading="lazy">
+    </figure>                     
+                                  
+    <p class="project-category">Web development</p>
+                                  
+    <div class="project-description">
+      <p>                         
+        Streamify is a modern communication platform designed for seamless chat and video calls.
+        It enables users to connect instantly with friends, peers, or colleagues.
+        Inspired by tools like Microsoft Teams, Streamify offers real-time collaboration.
+      </p>                        
+      <p>                         
+        Features include one-to-one chat, group chat, and HD video conferencing.  
+        A responsive and clean UI ensures a smooth user experience on all devices.  
+        Secure user authentication keeps conversations safe and private.  
+        Supports screen sharing and file sharing for productive teamwork.  
+      </p>                        
+      <p>                         
+        Optimized for low latency to ensure uninterrupted video calls.  
+        Built with scalability in mind to handle both small teams and large communities.  
+        Streamify empowers users to work, learn, and socialize online efficiently.
+      </p>                        
+    </div>                        
+                                  
+  </a>                            
+</li>                             
+                                  
+                                  
+          </ul>                   
+                                  
+        </section>                
+                                  
+      </article>                  
+	  <!--                        
+        - #BLOG                   
+      -->                         
+                                  
+      <article class="blog" data-page="blog">
+                                  
+        <header>                  
+          <h2 class="h2 article-title">Blog</h2>
+        </header>                 
+                                  
+        <section class="blog-posts">
+                                  
+          <ul class="blog-posts-list">
+                                  
+            <li class="blog-post-item">
+              <a href="#">        
+                                  
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>         
+                                  
+                <div class="blog-content">
+                                  
+                  <div class="blog-meta">
+                    <p class="blog-category">Software Development</p>
+                                  
+                    <span class="dot"></span>
+                                  
+                    <time datetime="2022-02-23">Fab 23, 2025</time>
+                  </div>          
+                                  
+                  <h3 class="h3 blog-item-title">JECC conferences in 2025</h3>
+                                  
+                  <p class="blog-text">
+					I had the opportunity to attend a conference organized by the JECC Jaipur Convention Club, which focused on technology and cyber security. The event provided valuable insights into the latest trends in digital security, ethical hacking, and data protection. Industry experts and speakers shared real-world experiences about tackling cyber threats and the importance of building resilient systems. Attending the conference enhanced my awareness of cyber risks, modern security practices, and the critical role technology plays in safeguarding information in today’s digital era.
+                  </p>            
+                                  
+                </div>            
+                                  
+              </a>                
+            </li>                 
+                                  
+            <li class="blog-post-item">
+              <a href="#">        
+                                  
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>         
+                                  
+                <div class="blog-content">
+                                  
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                                  
+                    <span class="dot"></span>
+                                  
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>          
+                                  
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                                  
+                  <p class="blog-text">
+					The best font for a designer depends on the project, but some universally popular choices include Helvetica Neue, Futura, Montserrat, Roboto, Garamond, and Playfair Display. These fonts are valued for their versatility, readability, and timeless design, making them suitable for branding, UI/UX, print, and creative work. Good designers often pair fonts—using a clean sans-serif for headings and a readable serif for body text—to achieve balance and style.                  </p>
+                                  
+                </div>            
+                                  
+              </a>                
+            </li>                 
+          </ul>                   
+                                  
+        </section>                
+                                  
+      </article>                  
+	  
+      <!--                        
+        - #CONTACT                
+      -->                         
+                                  
+      <article class="contact" data-page="contact">
+                                  
+        <header>                  
+          <h2 class="h2 article-title">Contact</h2>
+        </header>                 
+                                  
+        <section class="mapbox" data-mapbox>
+          <figure>                
+    <iframe                       
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.289912607595!2d75.56257147445233!3d26.848629362569684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db57c0a68b6a1%3A0x98b1a7e04e1e90f0!2sManipal%20University%20Jaipur!5e0!3m2!1sen!2sin!4v1724524600000!5m2!1sen!2sin" 
+  width="600"                     
+  height="450"                    
+  style="border:0;"               
+  allowfullscreen=""              
+  loading="lazy"                  
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>                         
+          </figure>               
+        </section>                
+                                  
+  <section class="contact-form">  
+  <h3 class="h3 form-title">Contact Form</h3>
+                                  
+  <form action="https://script.google.com/macros/s/AKfycbx8kGgJgZeSbEX7Pa2A872oCVs8kVf6-zMNmCbY8YwAnJ3X0HuCy0vQjFtOA7_5_liP2w/exec"
+        method="POST"             
+        class="form">             
+                                  
+    <div class="input-wrapper">   
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+      <input type="email" name="email" class="form-input" placeholder="Email address" required>
+    </div>                        
+                                  
+    <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+                                  
+    <button class="form-btn" type="submit">
+      <span>Send Message</span>   
+    </button>                     
+  </form>                         
+</section>                        
+                                  
+                                  
+                                  
+      </article>                  
+                                  
+    </div>                        
+                                  
+  </main>                         
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+  <!--                            
+    - custom js link              
+  -->                             
+  <script src="./assets/js/script.js"></script>
+                                  
+  <!--                            
+    - ionicon link                
+  -->                             
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                                  
+</body>                           
+                                  
+</html>                           
